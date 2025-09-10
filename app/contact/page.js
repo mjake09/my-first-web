@@ -28,6 +28,27 @@ export default function Contact() {
               />
             </div>
             <div>
+              <label htmlFor="phone1" className="block text-sm font-medium text-gray-700 mb-2">
+                Phone Number
+              </label>
+              <input
+                type="checkbox"
+                id="phone"
+                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="123-456-7890"
+              />
+            </div>
+            <div>
+              <label htmlFor="select" className="block text-sm font-medium text-gray-700 mb-2">
+                Phone Number
+              </label>
+              <select id="select" className="select me"> 
+                <option value="select1">Select1</option>
+                <option value="select2">Select2</option>
+              </select>
+              
+            </div>
+            <div>
               <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                 Message
               </label>
